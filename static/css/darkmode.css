@@ -1,0 +1,121 @@
+body{
+    background-color: #333;
+    color: white;
+}
+.navbar{
+    color: #333;
+    border-bottom: 5px solid white;
+    font-family: algerian, Courier, fantasy;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    font-size: 120%;
+}
+.arrow-up, .arrow-up:hover{
+    color: white;
+}
+.fa-bars, .fa-bars:hover{
+    color: white;
+}
+.btn-toggle{
+    background-color: #333;
+    border-style: none;
+}
+.card, .card-header, .card-footer{
+    background-color: #333;
+    border-color: white;
+}
+.modal, .modal-content{
+    background-color: #333;
+    border-color: white;
+}
+.account-lodge{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 120%;
+    color: white;
+}
+nav{
+    background-color: #333;
+}
+.nav-link{
+    font-family: algerian, Courier, fantasy;
+    font-weight: bold;
+    font-size: 110%;
+}
+.nav-link:hover{
+    background-color: white;
+    font-family: Courier, fantasy;
+    font-weight: bold;
+}
+
+
+.page-link{
+    text-align: center;
+}
+.white{
+    color: white;
+}
+.green{
+    color: green;
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+    font-weight: bolder;
+}
+.fa-circle, .fa-check-circle, .fa-times-circle{
+    font-size: 150%;
+}
+.text-dark{
+    font-size: 120%;
+}
+.social_img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.social_img:hover{
+    border-radius: 1px;
+}
+.pre{
+    white-space: pre-line;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: #333;
+}
+footer img{
+    text-align: center;
+    width: 9rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.profile-picture{
+    text-align: center;
+    border-radius: 1%;
+}
+footer h3{
+    font-family: sans-serif;
+}
+footer a{
+    color: #ddd;
+    text-decoration: underline;
+
+}
+footer a:hover{
+    font-weight: bold;
+    color: #dddddd;
+}
+.share{
+    color: blue;
+}
+.border_down{
+    border-bottom: 1px solid #cccccc;
+}

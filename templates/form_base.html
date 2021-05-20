@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    <meta name="theme-color" content="green">
+    <meta name="keyword" content="Master, Income, LegitKash, legit cash, make money, make money online, legitcash, naira, online money">
+    <meta property="og:url" content="https://mastersincome.com">
+    <meta property="og:title" content="Master Income">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{%  static 'css/cryptearn.css' %}?{% now 'U' %}">
+    <link rel="stylesheet" href="{%  static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{%  static 'css/animate.css' %}?{% now 'U' %}">
+    <link rel="stylesheet" href="{%  static 'css/W3.css' %}?{% now 'U' %}">
+    <link rel="manifest" href="{% static 'package.json' %}">
+    <title class="text-uppercase">{% block title %} CRYPTEARN {% endblock %}</title>
+
+    <link rel="icon" href="{%  static 'css/all.min.css' %}">
+    <link rel="icon" href="{%  static 'img/logo2.jpg' %}">
+</head>
+
+{% block body %}
+<div class="fixed-top position-sticky bg-color " style="text-align: right;" >
+    <a href="{% url 'home' %}" class="text-warning"><span class="fas fa-home"></span></a>
+    
+
+    </div>
+<body class="bg-color" style="padding: 50px 50px; ">
+    
+
+    <h3><center class="text-primary"><b style="border-bottom: 5px double #007bff;">{% block legend %}{% endblock %}</b></center></h3>
+    <fieldset style="background-color: white; border: 5px solid #ffc107; ">
+        <legend></legend>
+        
+
+    {% block content %}
+    {% endblock %}
+</fieldset>
+
+
+
+
+<script src="{%  static 'js/jquery-3.5.1.min.js' %}"></script>
+        <script src="{%  static 'js/popper.min.js' %}"></script>
+        <script src="{%  static 'js/bootstrap.min.js' %}"></script>
+        <script src="{%  static 'js/all.min.js' %}"></script>
+        <br>
+</body>
+{% endblock body %}

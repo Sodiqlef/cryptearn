@@ -1,0 +1,42 @@
+{% extends 'form_base.html' %}
+
+{% block meta %}<meta name="description" content="Login to master income and continue your earnings">{% endblock %}
+
+{% block title %} {{block.super}} Login {% endblock %}
+{% block breadcrumb %} Sign In {% endblock %}
+
+{% block content %}
+
+<form method="post" novalidate>
+    <fieldset class="w3-card-4  border-primary ">
+        <legend class="bg-primary text-center text-light" ><i><strong>WELCOME BACK</strong></i></legend>
+    {% csrf_token %}
+{% include 'widget.html' %}
+    <input type="checkbox" onclick="ShowPassword()"> Show Password<br><br>
+    <input type="submit" class="btn btn-primary btn-block" value="Log in">
+
+<br>
+    <center><a href="{% url 'password_reset' %}" class="text-primary"><b class="">Forgot Password? </b></a> </center>
+    <center><a href="{% url 'signup' %}" class="text-primary"><b class="">Don't have an account? </b></a> </center>
+
+</fieldset>
+    </form>
+
+
+
+
+<script>
+    function ShowPassword(){
+        var x = document.getElementById('id_password');
+        if (x.type === "password"){
+            x.type="text";
+        }else{
+            x.type="password";
+        }
+
+    }
+</script>
+  
+{% endblock %}
+
+

@@ -1,0 +1,23 @@
+{% extends 'form_base.html' %}
+{% block title %} {{block.super}} Sign Up {% endblock %}}
+{% block breadcrumb %} Join Us Now {% endblock %}
+
+{% block legend %}REGISTER{% endblock %}
+{% block content %}
+    {% include 'messages.html' %}
+
+    
+<form method="post" >
+    {% csrf_token %}
+    {% include 'widget.html' %}
+    
+    
+    <label>
+        <input type="checkbox" required>
+            <small> By signing up to Master Income, you would have read and agreed to our
+            <a href=""> terms of service </a> and also our 
+            <a href=""> privacy policy</a> </small>
+    </label>
+     <input type="submit" class="btn btn-block btn-primary" value="Register">
+</form>
+{% endblock %}

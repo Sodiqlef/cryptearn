@@ -1,0 +1,30 @@
+{
+  "short_name": "LegitKash",
+  "name": "LegitKash",
+  "theme_color": "#28a745",
+  "background_color": "#F7F8F9",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/logo2.jpg",
+      "type": "image/jpg",
+      "sizes": "48x48"
+    },
+    {
+      "src": "img/logo2.jpg",
+      "type": "image/jpg",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/logo2.jpg",
+      "type": "image/jpg",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/logo2.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?utm_source=launcher"}
+

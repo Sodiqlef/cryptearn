@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<div style="border-bottom: 3px solid #0ff; background-color: #cff; text-align: left;" class="container ">
+    <h3 >USERNAME:  <b>{{user.username|upper}}</b></h3>
+</div>
+<br>
+<div style="border-bottom: 3px solid #f0f; background-color: #fcf; text-align: left;" class="container ">
+<h3 >FIRSTNAME:  <b>{{user.first_name|upper}}</b></h3>
+</div>
+<br>
+<div style="border-bottom: 3px solid #ff0; background-color: #ffc; text-align: left;" class="container ">
+    <h3 >LASTNAME:  <b>{{user.last_name|upper}}</b></h3>
+</div>
+<br>
+<div style="border-bottom: 3px solid #00f; background-color: #ccf; text-align: left;" class="container table-responsive">
+    <h3 >E-MAIL ADDRESS:  <b>{{user.email|upper}}</b></h3>
+</div>
+
+<br>
+
+DAYS LEFT
+<div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+</div>
+{{days_left}}
+
+{% if profile.amount_paid <= 0 %}
+v
+{% endif %}
+<br><br>
+{% endblock %}

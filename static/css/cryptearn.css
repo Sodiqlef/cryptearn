@@ -1,0 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+.text-white{
+    color: white;
+}
+.bg-color{
+    background-color: #111;
+}
+.border-btm{
+    border-bottom: 1px solid white;
+}
+.flatpage{
+    white-space: pre-line;
+}
