@@ -1,4 +1,5 @@
 # cryptearn
 
 
-Deprecated 
+Deprecated will look into it
+
